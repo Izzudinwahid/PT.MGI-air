@@ -6140,19 +6140,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="60.96" y="182.88"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="K1" gate="3" pin="O"/>
-<wire x1="88.9" y1="175.26" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="K1" gate="3" pin="S"/>
-<wire x1="78.74" y1="175.26" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="TXLORA_CONFIG" class="0">
 <segment>
 <pinref part="X2" gate="-1" pin="1"/>
@@ -6190,6 +6177,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U1" gate="G$1" pin="IO16"/>
 <wire x1="124.46" y1="248.92" x2="127" y2="248.92" width="0.1524" layer="91"/>
 <label x="127" y="248.92" size="0.6096" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K1" gate="3" pin="O"/>
+<wire x1="88.9" y1="175.26" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
+<label x="93.98" y="175.26" size="0.6096" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K1" gate="3" pin="S"/>
+<wire x1="78.74" y1="175.26" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

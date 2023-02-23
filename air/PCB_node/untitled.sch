@@ -694,87 +694,6 @@ Based on the previous libraries:
 </deviceset>
 </devicesets>
 </library>
-<library name="EG1224">
-<packages>
-<package name="SW_EG1224">
-<wire x1="-6.9" y1="3.25" x2="6.9" y2="3.25" width="0.127" layer="51"/>
-<wire x1="6.9" y1="3.25" x2="6.9" y2="-3.25" width="0.127" layer="51"/>
-<wire x1="6.9" y1="-3.25" x2="6.9" y2="-12.25" width="0.127" layer="51"/>
-<wire x1="6.9" y1="-12.25" x2="-6.9" y2="-12.25" width="0.127" layer="51"/>
-<wire x1="-6.9" y1="-12.25" x2="-6.9" y2="-3.25" width="0.127" layer="51"/>
-<wire x1="-6.9" y1="-3.25" x2="-6.9" y2="3.25" width="0.127" layer="51"/>
-<wire x1="-7.15" y1="4.07" x2="-7.15" y2="-12.5" width="0.05" layer="39"/>
-<wire x1="-7.15" y1="-12.5" x2="7.15" y2="-12.5" width="0.05" layer="39"/>
-<wire x1="7.15" y1="-12.5" x2="7.15" y2="4.07" width="0.05" layer="39"/>
-<wire x1="7.15" y1="4.07" x2="-7.15" y2="4.07" width="0.05" layer="39"/>
-<circle x="-7.65" y="1.25" radius="0.1" width="0.2" layer="21"/>
-<circle x="-7.65" y="1.25" radius="0.1" width="0.2" layer="51"/>
-<text x="-7.15" y="5.944" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.15" y="5.626" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-4.8" y1="3.25" x2="4.8" y2="3.25" width="0.127" layer="21"/>
-<wire x1="6.9" y1="1.926" x2="6.9" y2="-1.926" width="0.127" layer="21"/>
-<wire x1="-4.8" y1="-3.25" x2="4.8" y2="-3.25" width="0.127" layer="21"/>
-<wire x1="-6.9" y1="1.926" x2="-6.9" y2="-1.926" width="0.127" layer="21"/>
-<wire x1="6.9" y1="-3.25" x2="-6.9" y2="-3.25" width="0.127" layer="51"/>
-<pad name="S1" x="-6" y="-3" drill="1.09"/>
-<pad name="S2" x="6" y="-3" drill="1.09"/>
-<pad name="S3" x="6" y="3" drill="1.09"/>
-<pad name="S4" x="-6" y="3" drill="1.09"/>
-<pad name="1" x="-4" y="1.25" drill="0.79" shape="square"/>
-<pad name="2" x="0" y="1.25" drill="0.79"/>
-<pad name="3" x="4" y="1.25" drill="0.79"/>
-</package>
-</packages>
-<symbols>
-<symbol name="EG1224">
-<text x="-5.08" y="8.89" size="1.27" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-8.89" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
-<wire x1="-2.54" y1="2.54" x2="2.794" y2="4.6736" width="0.1524" layer="94"/>
-<circle x="2.54" y="5.08" radius="0.3302" width="0.1524" layer="94"/>
-<circle x="2.54" y="0" radius="0.3302" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="2.921" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<pin name="1" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="3" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="SHIELD" x="10.16" y="-5.08" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="EG1224" prefix="S">
-<description> &lt;a href="https://pricing.snapeda.com/parts/EG1224/E-Switch/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="EG1224" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SW_EG1224">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Slide Switch SPDT Through Hole, Right Angle "/>
-<attribute name="MF" value="E-Switch"/>
-<attribute name="MP" value="EG1224"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/EG1224/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -8080,14 +7999,12 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391098.pdf"&gt; Data sheet
 <part name="U1" library="ESP32-DEVKITC-32D" deviceset="ESP32-DEVKITC-32D" device=""/>
 <part name="MINI1" library="MINI560" deviceset="MINI560" device=""/>
 <part name="X1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA2" device="" package3d_urn="urn:adsk.eagle:package:9615/1"/>
-<part name="S2" library="EG1224" deviceset="EG1224" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="1N5819HW-7" deviceset="1N5819HW-7" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X2" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA5" device="" package3d_urn="urn:adsk.eagle:package:9612/1"/>
 <part name="ADS1" library="ds1115" deviceset="ADS1115" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8152,10 +8069,6 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391098.pdf"&gt; Data sheet
 <attribute name="VALUE" x="7.62" y="341.63" size="1.778" layer="96"/>
 <attribute name="NAME" x="8.636" y="346.329" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="S2" gate="G$1" x="243.84" y="279.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="252.73" y="284.48" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="234.95" y="284.48" size="1.27" layer="96" rot="R270" align="top-left"/>
-</instance>
 <instance part="GND1" gate="1" x="50.8" y="340.36" smashed="yes">
 <attribute name="VALUE" x="48.26" y="337.82" size="1.778" layer="96"/>
 </instance>
@@ -8174,9 +8087,6 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391098.pdf"&gt; Data sheet
 </instance>
 <instance part="GND3" gate="1" x="132.08" y="320.04" smashed="yes">
 <attribute name="VALUE" x="129.54" y="317.5" size="1.778" layer="96"/>
-</instance>
-<instance part="GND5" gate="1" x="248.92" y="259.08" smashed="yes">
-<attribute name="VALUE" x="246.38" y="256.54" size="1.778" layer="96"/>
 </instance>
 <instance part="X2" gate="-1" x="20.32" y="292.1" smashed="yes">
 <attribute name="NAME" x="13.716" y="292.989" size="1.778" layer="95" rot="R180"/>
@@ -8398,15 +8308,6 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391098.pdf"&gt; Data sheet
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="SHIELD"/>
-<wire x1="238.76" y1="269.24" x2="238.76" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="261.62" x2="248.92" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="261.62" x2="248.92" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<junction x="248.92" y="261.62"/>
-</segment>
-<segment>
 <pinref part="ADS1" gate="G$1" pin="GND"/>
 <wire x1="162.56" y1="228.6" x2="149.86" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="ADS1" gate="G$1" pin="ADDR"/>
@@ -8538,18 +8439,8 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391098.pdf"&gt; Data sheet
 <pinref part="R15" gate="G$1" pin="2"/>
 <junction x="78.74" y="274.32"/>
 </segment>
-<segment>
-<pinref part="S2" gate="G$1" pin="3"/>
-<wire x1="243.84" y1="269.24" x2="243.84" y2="266.7" width="0.1524" layer="91"/>
-<label x="243.84" y="266.7" size="0.6096" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="M0" class="0">
-<segment>
-<pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="289.56" x2="246.38" y2="292.1" width="0.1524" layer="91"/>
-<label x="246.38" y="292.1" size="0.6096" layer="95" rot="R90" xref="yes"/>
-</segment>
 <segment>
 <pinref part="EBYTEE220-900T22D1" gate="G$1" pin="M1"/>
 <pinref part="EBYTEE220-900T22D1" gate="G$1" pin="M0"/>
@@ -8557,6 +8448,11 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391098.pdf"&gt; Data sheet
 <label x="134.62" y="337.82" size="0.6096" layer="95" rot="R180" xref="yes"/>
 <wire x1="137.16" y1="335.28" x2="137.16" y2="337.82" width="0.1524" layer="91"/>
 <junction x="137.16" y="337.82"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO15"/>
+<wire x1="124.46" y1="238.76" x2="127" y2="238.76" width="0.1524" layer="91"/>
+<label x="127" y="238.76" size="0.6096" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RX_LORA" class="0">

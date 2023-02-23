@@ -6178,18 +6178,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="88.9" y1="190.5" x2="93.98" y2="190.5" width="0.1524" layer="91"/>
 <label x="93.98" y="190.5" size="0.6096" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="K1" gate="2" pin="S"/>
+<wire x1="78.74" y1="190.5" x2="78.74" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="195.58" x2="93.98" y2="195.58" width="0.1524" layer="91"/>
+<label x="93.98" y="195.58" size="0.6096" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TXLORA_MICRO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO16"/>
 <wire x1="124.46" y1="248.92" x2="127" y2="248.92" width="0.1524" layer="91"/>
 <label x="127" y="248.92" size="0.6096" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K1" gate="2" pin="S"/>
-<wire x1="78.74" y1="190.5" x2="78.74" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="195.58" x2="93.98" y2="195.58" width="0.1524" layer="91"/>
-<label x="93.98" y="195.58" size="0.6096" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
