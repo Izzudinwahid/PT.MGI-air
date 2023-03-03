@@ -2173,8 +2173,8 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD " x="150.09788125" y="-57.5519875" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Sharp Microelectronics" x="150.09788125" y="-57.5519875" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="PC817X2NIP0F" x="150.09788125" y="-57.5519875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="62.202640625" y="48.4238125" size="1.27238125" layer="25"/>
 <attribute name="NAME" x="62.20605" y="48.42003125" size="1.27083125" layer="25"/>
+<attribute name="NAME" x="62.202640625" y="48.4238125" size="1.27238125" layer="25"/>
 <attribute name="PACKAGE" value="SMD-4 Sharp Microelectronics" x="150.09788125" y="-57.5519875" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="150.09788125" y="-57.5519875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="62.306871875" y="40.916371875" size="1.27046875" layer="27"/>
@@ -2184,8 +2184,8 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD " x="89.105221875" y="-81.01171875" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Sharp Microelectronics" x="89.105221875" y="-81.01171875" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="PC817X2NIP0F" x="89.105221875" y="-81.01171875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="62.16998125" y="40.20408125" size="1.27238125" layer="25"/>
 <attribute name="NAME" x="62.173390625" y="40.2003" size="1.27083125" layer="25"/>
+<attribute name="NAME" x="62.16998125" y="40.20408125" size="1.27238125" layer="25"/>
 <attribute name="PACKAGE" value="SMD-4 Sharp Microelectronics" x="89.105221875" y="-81.01171875" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="89.105221875" y="-81.01171875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="62.2742125" y="32.696640625" size="1.27046875" layer="27"/>
@@ -2240,8 +2240,8 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD " x="65.003015625" y="28.64916875" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Sharp Microelectronics" x="65.003015625" y="28.64916875" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="PC817X2NIP0F" x="65.003015625" y="28.64916875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="62.201184375" y="31.7511875" size="1.27083125" layer="25"/>
 <attribute name="NAME" x="62.197775" y="31.75496875" size="1.27238125" layer="25"/>
+<attribute name="NAME" x="62.201184375" y="31.7511875" size="1.27083125" layer="25"/>
 <attribute name="PACKAGE" value="SMD-4 Sharp Microelectronics" x="65.003015625" y="28.64916875" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="65.003015625" y="28.64916875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="62.30200625" y="24.247528125" size="1.27046875" layer="27"/>
@@ -2327,7 +2327,8 @@ design rules under a new name.</description>
 <wire x1="5.43961875" y1="11.1692125" x2="15.611028125" y2="11.1692125" width="0.6096" layer="16"/>
 <wire x1="16.667665625" y1="12.22585" x2="16.667665625" y2="14.869321875" width="0.6096" layer="16"/>
 <wire x1="15.611028125" y1="11.1692125" x2="16.667665625" y2="12.22585" width="0.6096" layer="16"/>
-<wire x1="16.667665625" y1="14.869321875" x2="16.667665625" y2="32.5621625" width="0.6096" layer="16"/>
+<wire x1="16.667665625" y1="14.869321875" x2="16.667665625" y2="17.46494375" width="0.6096" layer="16"/>
+<wire x1="16.667665625" y1="17.46494375" x2="16.667665625" y2="32.5621625" width="0.6096" layer="16"/>
 <wire x1="16.667665625" y1="32.5621625" x2="14.0855125" y2="35.144315625" width="0.6096" layer="16"/>
 <wire x1="14.0855125" y1="35.144315625" x2="3.08225" y2="35.144315625" width="0.6096" layer="16"/>
 <wire x1="3.08225" y1="35.144315625" x2="2.996084375" y2="35.05815" width="0.6096" layer="16"/>
@@ -2337,7 +2338,20 @@ design rules under a new name.</description>
 <wire x1="78.867696875" y1="34.797221875" x2="78.867696875" y2="26.993690625" width="0.4064" layer="1"/>
 <via x="78.867696875" y="26.993690625" extent="1-16" drill="0.85" diameter="1.6"/>
 <wire x1="78.43220625" y1="35.2327125" x2="78.867696875" y2="34.797221875" width="0.4064" layer="1"/>
-<wire x1="16.667665625" y1="14.869321875" x2="78.867696875" y2="26.993690625" width="0" layer="19" extent="1-1"/>
+<wire x1="78.867696875" y1="26.993690625" x2="78.867696875" y2="20.30484375" width="0.4064" layer="16"/>
+<wire x1="78.867696875" y1="20.30484375" x2="79.55765625" y2="19.614884375" width="0.4064" layer="16"/>
+<via x="79.55765625" y="19.614884375" extent="1-16" drill="0.85" diameter="1.6"/>
+<wire x1="79.55765625" y1="19.614884375" x2="81.8130125" y2="19.614884375" width="0.4064" layer="1"/>
+<wire x1="81.8130125" y1="19.614884375" x2="83.166678125" y2="18.26121875" width="0.4064" layer="1"/>
+<wire x1="83.166678125" y1="18.26121875" x2="83.166678125" y2="10.749534375" width="0.4064" layer="1"/>
+<wire x1="83.166678125" y1="10.749534375" x2="82.37056875" y2="9.953425" width="0.4064" layer="1"/>
+<wire x1="82.37056875" y1="9.953425" x2="14.807940625" y2="9.953425" width="0.4064" layer="1"/>
+<wire x1="14.807940625" y1="9.953425" x2="13.16230625" y2="11.599059375" width="0.4064" layer="1"/>
+<wire x1="13.16230625" y1="11.599059375" x2="13.16230625" y2="18.287765625" width="0.4064" layer="1"/>
+<wire x1="13.16230625" y1="18.287765625" x2="13.18884375" y2="18.314303125" width="0.4064" layer="1"/>
+<via x="13.18884375" y="18.314303125" extent="1-16" drill="0.85" diameter="1.6"/>
+<wire x1="13.18884375" y1="18.314303125" x2="15.81830625" y2="18.314303125" width="0.4064" layer="16"/>
+<wire x1="15.81830625" y1="18.314303125" x2="16.667665625" y2="17.46494375" width="0.4064" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="MINI1" pad="IN-"/>
@@ -2465,12 +2479,12 @@ design rules under a new name.</description>
 <wire x1="73.677796875" y1="14.87089375" x2="76.16904375" y2="14.87089375" width="0.4064" layer="16"/>
 <wire x1="77.129934375" y1="15.831784375" x2="77.129934375" y2="18.252784375" width="0.4064" layer="16"/>
 <via x="77.129934375" y="18.252784375" extent="1-16" drill="0.85" diameter="1.6"/>
-<wire x1="77.129934375" y1="18.252784375" x2="77.129934375" y2="11.503046875" width="0.4064" layer="1"/>
-<wire x1="77.129934375" y1="11.503046875" x2="75.911409375" y2="10.284521875" width="0.4064" layer="1"/>
-<wire x1="75.911409375" y1="10.284521875" x2="62.356934375" y2="10.284521875" width="0.4064" layer="1"/>
-<wire x1="60.8227875" y1="11.81866875" x2="60.8227875" y2="21.51900625" width="0.4064" layer="1"/>
+<wire x1="77.129934375" y1="18.252784375" x2="77.129934375" y2="13.108534375" width="0.4064" layer="1"/>
+<wire x1="77.129934375" y1="13.108534375" x2="75.315321875" y2="11.293921875" width="0.4064" layer="1"/>
+<wire x1="75.315321875" y1="11.293921875" x2="62.264946875" y2="11.293921875" width="0.4064" layer="1"/>
+<wire x1="60.8227875" y1="12.73608125" x2="60.8227875" y2="21.51900625" width="0.4064" layer="1"/>
 <wire x1="76.16904375" y1="14.87089375" x2="77.129934375" y2="15.831784375" width="0.4064" layer="16"/>
-<wire x1="62.356934375" y1="10.284521875" x2="60.8227875" y2="11.81866875" width="0.4064" layer="1"/>
+<wire x1="62.264946875" y1="11.293921875" x2="60.8227875" y2="12.73608125" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="MINI1" pad="OUT+"/>
@@ -3194,6 +3208,19 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,8fe5b0928cc403db"/>
+<approved hash="4,1,b4bc4c49d031bc2a"/>
+<approved hash="4,1,12caa88ce22f097c"/>
+<approved hash="4,1,df46b900c7b320ff"/>
+<approved hash="4,16,8fe5b0928cc403db"/>
+<approved hash="4,16,b3760662989abf2a"/>
+<approved hash="4,16,b4bc4c49d031bc2a"/>
+<approved hash="4,16,12caa88ce22f097c"/>
+<approved hash="4,16,df46b900c7b320ff"/>
+<approved hash="4,16,87594bddeb76f15b"/>
+<approved hash="4,16,3755eb9d0e463f27"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
