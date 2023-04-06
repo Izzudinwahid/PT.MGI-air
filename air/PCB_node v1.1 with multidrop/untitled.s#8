@@ -22039,6 +22039,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="D15" library="US1M-13" deviceset="US1M-13" device=""/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="560"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22661,6 +22662,9 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="R31" gate="G$1" x="50.8" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.3014" y="161.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="54.102" y="161.29" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+7" gate="VCC" x="50.8" y="175.26" smashed="yes">
+<attribute name="VALUE" x="48.26" y="172.72" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -23344,6 +23348,11 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="-22.86" y1="149.86" x2="-22.86" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="152.4" x2="-27.94" y2="152.4" width="0.1524" layer="91"/>
 <junction x="-27.94" y="152.4"/>
+</segment>
+<segment>
+<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
+<wire x1="50.8" y1="170.18" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M0" class="0">

@@ -22040,6 +22040,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="560"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22666,6 +22667,9 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="P+7" gate="VCC" x="50.8" y="175.26" smashed="yes">
 <attribute name="VALUE" x="48.26" y="172.72" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="GND33" gate="1" x="78.74" y="172.72" smashed="yes">
+<attribute name="VALUE" x="76.2" y="170.18" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23000,6 +23004,11 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="K3" gate="G$1" pin="COM"/>
 <wire x1="35.56" y1="35.56" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="EBYTEE220-900T22D1" gate="G$1" pin="M0"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+<wire x1="91.44" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -24351,6 +24360,12 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="D15" gate="G$1" pin="K"/>
 <pinref part="U2" gate="G$1" pin="IO17"/>
 <wire x1="40.64" y1="157.48" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="EBYTEE220-900T22D1" gate="G$1" pin="M1"/>
+<wire x1="91.44" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

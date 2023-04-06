@@ -162,6 +162,10 @@
 <wire x1="0" y1="100" x2="0" y2="20" width="0" layer="20"/>
 <dimension x1="0" y1="100" x2="80" y2="100" x3="40" y3="108" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="100" x2="0" y2="20" x3="-6" y3="60" textsize="1.778" layer="1"/>
+<text x="2.02075" y="30.573721875" size="1.778" layer="21">L/+</text>
+<text x="7.361415625" y="30.511165625" size="1.778" layer="21">N/-</text>
+<text x="19.691175" y="30.283815625" size="1.778" layer="21">TX</text>
+<text x="14.264440625" y="30.324090625" size="1.778" layer="21">RX</text>
 </plain>
 <libraries>
 <library name="ds1115">
@@ -2389,7 +2393,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.168490625" y="96.379721875" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF" x="61.574084375" y="86.667040625" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.574084375" y="87.542040625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="NAME" x="66.30720625" y="86.41508125" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="52" x="46.334084375" y="-22.552959375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="46.334084375" y="-22.552959375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="62.574084375" y="84.767040625" size="1.016" layer="28" rot="MR0"/>
@@ -2401,7 +2405,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="18.15820625" y="90.257753125" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100nF" x="61.563621875" y="81.555809375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.563621875" y="82.430809375" size="1.016" layer="26" rot="MR0"/>
+<attribute name="NAME" x="66.648928125" y="81.0455875" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="52" x="-27.336378125" y="-20.044190625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-27.336378125" y="-20.044190625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="62.563621875" y="79.655809375" size="1.016" layer="28" rot="MR0"/>
@@ -2413,7 +2417,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="47.09620625" y="96.374059375" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="10uF/16V" x="11.119421875" y="91.029034375" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.099421875" y="93.769034375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="13.648584375" y="96.58710625" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="3" x="-67.620578125" y="-6.760965625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-67.620578125" y="-6.760965625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="6.884421875" y="93.804034375" size="1.27" layer="27" rot="R270"/>
@@ -2431,7 +2435,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="51.24365" y="80.7049" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF" x="61.56529375" y="84.076553125" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.56529375" y="84.951553125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="NAME" x="66.204503125" y="83.82459375" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="52" x="34.89529375" y="-25.143446875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="34.89529375" y="-25.143446875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="62.56529375" y="82.176553125" size="1.016" layer="28" rot="MR0"/>
@@ -2459,11 +2463,10 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Red - LED Indication - Discrete 2V 0805 (2012 Metric) " x="115.62761875" y="120.59944375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Lumex Opto/Components" x="115.62761875" y="120.59944375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="SML-LXT0805IW-TR" x="115.62761875" y="120.59944375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.41261875" y="80.77944375" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="6.840425" y="79.978515625" size="0.8" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="0805 Lumex" x="115.62761875" y="120.59944375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="115.62761875" y="120.59944375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SML-LXT0805IW-TR/?ref=eda" x="115.62761875" y="120.59944375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="8.27261875" y="80.77944375" size="0.8" layer="27" rot="R90"/>
 </element>
 <element name="D2" library="1N5819HW-7" package="SOD3715X145N" value="1N5819HW-7" x="20.80795" y="75.832178125" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="-88.41205" y="0.902178125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2474,7 +2477,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="-88.41205" y="0.902178125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="-88.41205" y="0.902178125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N5819HW-7/?ref=eda" x="-88.41205" y="0.902178125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="19.05703125" y="78.3334875" size="0.60991875" layer="27" rot="R270"/>
 </element>
 <element name="D3" library="1N5819HW-7" package="SOD3715X145N" value="1N5819HW-7" x="17.76755625" y="75.8772" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="-91.45244375" y="-5.4028" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2485,7 +2487,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="-91.45244375" y="-5.4028" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="-91.45244375" y="-5.4028" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N5819HW-7/?ref=eda" x="-91.45244375" y="-5.4028" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="16.0166375" y="78.378509375" size="0.60991875" layer="27" rot="R270"/>
 </element>
 <element name="D4" library="US1M-13" package="DIOM5226X240N" value="US1M-13" x="30.140275" y="54.065615625" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="60.620275" y="-39.914384375" size="1.778" layer="27" display="off"/>
@@ -2496,7 +2497,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="DO-214AC-214 Diodes Incorporated" x="60.620275" y="-39.914384375" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="60.620275" y="-39.914384375" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/US1M-13/?ref=eda" x="60.620275" y="-39.914384375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.140275" y="50.065615625" size="1.778" layer="27"/>
 </element>
 <element name="EBYTEE220-900T22D1" library="EByte E220-900T22D" package="EBYTEE220-900T22D" value="" x="56.908153125" y="60.896059375" smashed="yes" rot="R90"/>
 <element name="J1" library="10118193-0001LF" package="FCI_10118193-0001LF" value="10118193-0001LF" x="29.00788125" y="98.571759375" smashed="yes" rot="R180">
@@ -2527,7 +2527,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="0.640903125" y="34.784575" size="1.27" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="55.390903125" y="82.264575" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="55.390903125" y="82.264575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="22.540903125" y="34.784575" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="Q1" library="MMBT3904" package="SOT95P240X120-3N" value="MMBT3904" x="61.545415625" y="73.94975625" smashed="yes" rot="MR270">
 <attribute name="AVAILABILITY" value="In Stock" x="154.255415625" y="-13.68024375" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2537,7 +2536,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.237415625" y="76.157625" size="0.813859375" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 Motorola" x="154.255415625" y="-13.68024375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="154.255415625" y="-13.68024375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="64.725384375" y="76.15820625" size="0.814071875" layer="28" rot="MR270"/>
 </element>
 <element name="Q2" library="MMBT3904" package="SOT95P240X120-3N" value="MMBT3904" x="61.58570625" y="68.42380625" smashed="yes" rot="MR270">
 <attribute name="AVAILABILITY" value="In Stock" x="154.29570625" y="-26.82619375" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2547,7 +2545,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.27770625" y="70.631675" size="0.813859375" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="SOT-23-3 Motorola" x="154.29570625" y="-26.82619375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="154.29570625" y="-26.82619375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="64.765675" y="70.63225625" size="0.814071875" layer="28" rot="MR270"/>
 </element>
 <element name="Q3" library="adafruit" package="SM49" value="12MHz" x="46.731784375" y="88.818065625" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="3.551784375" y="182.798065625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2599,7 +2596,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="41.463340625" y="41.20153125" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1k" x="2.820934375" y="73.40741875" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.090934375" y="74.67741875" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="1.376775" y="69.56015" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="45" x="-100.049065625" y="35.30741875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-100.049065625" y="35.30741875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="0.280934375" y="74.67741875" size="1.27" layer="27" rot="R270"/>
@@ -2611,7 +2608,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="69.285571875" y="72.57235625" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1k" x="3.665165625" y="82.507290625" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.935165625" y="83.777290625" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="2.35438125" y="78.790934375" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="45" x="-99.204834375" y="19.007290625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-99.204834375" y="19.007290625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.125165625" y="83.777290625" size="1.27" layer="27" rot="R270"/>
@@ -2661,7 +2658,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="113.733075" y="159.61364375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="113.733075" y="159.61364375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TL1015AF160QG/?ref=eda" x="113.733075" y="159.61364375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="22.253075" y="93.61364375" size="1.27" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="S2" library="TL1015AF160QG" package="SW_TL1015AF160QG" value="TL1015AF160QG" x="39.7331625" y="96.12795625" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="133.7131625" y="176.13795625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2672,7 +2668,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="133.7131625" y="176.13795625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="133.7131625" y="176.13795625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TL1015AF160QG/?ref=eda" x="133.7131625" y="176.13795625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="42.2331625" y="93.62795625" size="1.27" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="U$1" library="STEPDOWN_SY8205" package="STEPDOWN_SY8205" value="STEPDOWN_SY8205" x="21.64590625" y="34.576071875" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.14590625" y="64.076071875" size="1.27" layer="25" rot="R270"/>
@@ -2696,7 +2691,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="Module Espressif Systems" x="80.9463875" y="54.360209375" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="80.9463875" y="54.360209375" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-WROOM-32D/?ref=eda" x="80.9463875" y="54.360209375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="24.4563875" y="55.870209375" size="1.27" layer="27"/>
 </element>
 <element name="U3" library="AMS1117" package="SOT229P700X180-4N" value="AMS1117" x="18.19255625" y="83.95190625" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Not in stock" x="-61.81744375" y="53.47190625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2706,7 +2700,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.259425" y="87.537546875" size="1.271940625" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="SOT-223 Seeed Technology" x="-61.81744375" y="53.47190625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="-61.81744375" y="53.47190625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="12.7978875" y="87.64470625" size="1.270959375" layer="27" rot="R270"/>
 </element>
 <element name="U4" library="ADS1115IDGSR" package="SOP50P490X110-10N" value="ADS1115IDGSR" x="61.9609125" y="44.230165625" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="-40.9090875" y="17.560165625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2717,54 +2710,44 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="VSSOP-10 Texas Instruments" x="-40.9090875" y="17.560165625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="-40.9090875" y="17.560165625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ADS1115IDGSR/?ref=eda" x="-40.9090875" y="17.560165625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="59.9609125" y="47.230165625" size="1.016" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="U5" library="PC817X2NIP0F" package="SOT254P975X400-4N" value="PC817X2NIP0F" x="9.993890625" y="73.4322625" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Not in stock" x="-76.366109375" y="152.1722625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD " x="-76.366109375" y="152.1722625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Sharp Microelectronics" x="-76.366109375" y="152.1722625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="PC817X2NIP0F" x="-76.366109375" y="152.1722625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.79913125" y="70.3264625" size="1.27238125" layer="25" rot="R180"/>
 <attribute name="NAME" x="12.795721875" y="70.33024375" size="1.27083125" layer="25" rot="R180"/>
+<attribute name="NAME" x="12.79913125" y="70.3264625" size="1.27238125" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="SMD-4 Sharp Microelectronics" x="-76.366109375" y="152.1722625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-76.366109375" y="152.1722625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="12.6949" y="77.833903125" size="1.27046875" layer="27" rot="R180"/>
 </element>
 <element name="X1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MSTBA2" package3d_urn="urn:adsk.eagle:package:9615/1" value="MSTBA2" x="6.1260625" y="21.94536875" smashed="yes">
 <attribute name="MF" value="FARNELL" x="25.1760625" y="-56.79463125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757242" x="25.1760625" y="-56.79463125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="0.0300625" y="29.56536875" size="1.778" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="3705171" x="25.1760625" y="-56.79463125" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="71C4161" x="25.1760625" y="-56.79463125" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="11" x="25.1760625" y="-56.79463125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.0460625" y="21.94536875" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X2" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MSTBA3" package3d_urn="urn:adsk.eagle:package:9608/1" value="MSTBA3" x="20.863621875" y="21.92998125" smashed="yes">
 <attribute name="MF" value="FARNELL" x="105.953621875" y="-40.30001875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757255" x="105.953621875" y="-40.30001875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.227621875" y="29.54998125" size="1.778" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="3705183" x="105.953621875" y="-40.30001875" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="71C4162" x="105.953621875" y="-40.30001875" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="3" x="105.953621875" y="-40.30001875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="13.243621875" y="21.92998125" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X3" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MSTBA4" package3d_urn="urn:adsk.eagle:package:9613/1" value="MSTBA4" x="40.675090625" y="21.902240625" smashed="yes">
 <attribute name="MF" value="FARNELL" x="104.175090625" y="-40.327759375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757268" x="104.175090625" y="-40.327759375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="29.499090625" y="29.522240625" size="1.778" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="3705195" x="104.175090625" y="-40.327759375" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="71C4163" x="104.175090625" y="-40.327759375" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="9" x="104.175090625" y="-40.327759375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="30.515090625" y="21.902240625" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X4" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MSTBA5" package3d_urn="urn:adsk.eagle:package:9612/1" value="MSTBA5" x="65.5606375" y="21.866996875" smashed="yes">
 <attribute name="MF" value="" x="102.3906375" y="-40.363003125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757271" x="102.3906375" y="-40.363003125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51.8446375" y="29.486996875" size="1.778" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="3705201" x="102.3906375" y="-40.363003125" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="71C4164" x="102.3906375" y="-40.363003125" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="0" x="102.3906375" y="-40.363003125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="52.8606375" y="21.866996875" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="D5" library="SML-LXT0805IW-TR" package="LEDC2012X120N" value="SML-LXT0805IW-TR" x="46.15120625" y="79.782309375" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="46.15120625" y="79.782309375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2775,7 +2758,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="0805 Lumex" x="46.15120625" y="79.782309375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="46.15120625" y="79.782309375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SML-LXT0805IW-TR/?ref=eda" x="46.15120625" y="79.782309375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="44.28620625" y="81.502309375" size="0.8" layer="27" rot="R270"/>
 </element>
 <element name="D6" library="SML-LXT0805IW-TR" package="LEDC2012X120N" value="SML-LXT0805IW-TR" x="49.935528125" y="79.7672" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="49.935528125" y="79.7672" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2786,7 +2768,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="0805 Lumex" x="49.935528125" y="79.7672" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="49.935528125" y="79.7672" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SML-LXT0805IW-TR/?ref=eda" x="49.935528125" y="79.7672" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="48.070528125" y="81.4872" size="0.8" layer="27" rot="R270"/>
 </element>
 <element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1k" x="48.303128125" y="75.452565625" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.573128125" y="76.722565625" size="1.27" layer="25" rot="R270"/>
@@ -3097,26 +3078,36 @@ design rules under a new name.</description>
 <wire x1="25.439325" y1="71.604121875" x2="26.626828125" y2="70.41661875" width="0.254" layer="16"/>
 <wire x1="26.626828125" y1="70.41661875" x2="31.990296875" y2="70.41661875" width="0.254" layer="16"/>
 <wire x1="31.990296875" y1="70.41661875" x2="32.0388875" y2="70.465209375" width="0.254" layer="16"/>
-<wire x1="34.7913875" y1="69.547709375" x2="34.7913875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="33.8738875" y1="68.630209375" x2="34.7913875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.9563875" y1="68.630209375" x2="33.8738875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.9563875" y1="69.547709375" x2="32.9563875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.9563875" y1="70.465209375" x2="32.9563875" y2="69.547709375" width="0" layer="19" extent="1-1"/>
-<wire x1="33.8738875" y1="70.465209375" x2="32.9563875" y2="70.465209375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.0388875" y1="68.630209375" x2="32.9563875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="31.1213875" y1="68.630209375" x2="32.0388875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="31.1213875" y1="69.547709375" x2="31.1213875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="31.1213875" y1="70.465209375" x2="31.1213875" y2="69.547709375" width="0" layer="19" extent="1-1"/>
-<wire x1="34.7913875" y1="67.712709375" x2="34.7913875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="34.7913875" y1="66.795209375" x2="34.7913875" y2="67.712709375" width="0" layer="19" extent="1-1"/>
-<wire x1="33.8738875" y1="66.795209375" x2="34.7913875" y2="66.795209375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.9563875" y1="66.795209375" x2="33.8738875" y2="66.795209375" width="0" layer="19" extent="1-1"/>
-<wire x1="31.1213875" y1="67.712709375" x2="31.1213875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.9563875" y1="67.712709375" x2="32.9563875" y2="68.630209375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.0388875" y1="66.795209375" x2="32.9563875" y2="66.795209375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.0388875" y1="70.465209375" x2="32.9563875" y2="70.465209375" width="0" layer="19" extent="1-1"/>
-<wire x1="31.1213875" y1="66.795209375" x2="31.1213875" y2="67.712709375" width="0" layer="19" extent="1-1"/>
-<wire x1="34.7913875" y1="70.465209375" x2="34.7913875" y2="69.547709375" width="0" layer="19" extent="1-1"/>
+<wire x1="32.0388875" y1="70.465209375" x2="31.22130625" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="31.22130625" y1="70.465209375" x2="31.1213875" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="32.0388875" y1="70.465209375" x2="32.9563875" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="33.8738875" y1="70.465209375" x2="32.97150625" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="32.97150625" y1="70.465209375" x2="32.9563875" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="33.8738875" y1="70.465209375" x2="34.7913875" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="34.7913875" y1="69.547709375" x2="34.7913875" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="34.7913875" y1="68.630209375" x2="34.7913875" y2="69.547709375" width="0.254" layer="1"/>
+<wire x1="32.9563875" y1="69.547709375" x2="32.9563875" y2="70.450090625" width="0.254" layer="1"/>
+<wire x1="32.9563875" y1="70.450090625" x2="32.97150625" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="31.1213875" y1="69.547709375" x2="31.1213875" y2="70.365290625" width="0.254" layer="1"/>
+<wire x1="31.1213875" y1="70.365290625" x2="31.22130625" y2="70.465209375" width="0.254" layer="1"/>
+<wire x1="31.1213875" y1="69.547709375" x2="31.1213875" y2="68.630209375" width="0.254" layer="1"/>
+<wire x1="32.0388875" y1="68.630209375" x2="31.156784375" y2="68.630209375" width="0.254" layer="1"/>
+<wire x1="31.156784375" y1="68.630209375" x2="31.1213875" y2="68.630209375" width="0.254" layer="1"/>
+<wire x1="32.9563875" y1="68.630209375" x2="32.9563875" y2="69.547709375" width="0.254" layer="1"/>
+<wire x1="33.8738875" y1="68.630209375" x2="32.9563875" y2="68.630209375" width="0.254" layer="1"/>
+<wire x1="34.7913875" y1="68.630209375" x2="33.8738875" y2="68.630209375" width="0.254" layer="1"/>
+<wire x1="34.7913875" y1="67.712709375" x2="34.7913875" y2="66.795209375" width="0.254" layer="1"/>
+<wire x1="32.9563875" y1="68.630209375" x2="32.9563875" y2="67.712709375" width="0.254" layer="1"/>
+<wire x1="32.9563875" y1="66.795209375" x2="32.9563875" y2="67.712709375" width="0.254" layer="1"/>
+<wire x1="31.1213875" y1="67.712709375" x2="31.1213875" y2="68.5948125" width="0.254" layer="1"/>
+<wire x1="31.1213875" y1="68.5948125" x2="31.156784375" y2="68.630209375" width="0.254" layer="1"/>
+<wire x1="31.1213875" y1="67.712709375" x2="31.1213875" y2="66.803571875" width="0.254" layer="1"/>
+<wire x1="31.1213875" y1="66.803571875" x2="31.1213875" y2="66.795209375" width="0.254" layer="1"/>
+<wire x1="32.0388875" y1="66.795209375" x2="31.12975" y2="66.795209375" width="0.254" layer="1"/>
+<wire x1="31.12975" y1="66.795209375" x2="31.1213875" y2="66.803571875" width="0.254" layer="1"/>
+<wire x1="32.0388875" y1="66.795209375" x2="32.9563875" y2="66.795209375" width="0.254" layer="1"/>
+<wire x1="33.8738875" y1="66.795209375" x2="32.9563875" y2="66.795209375" width="0.254" layer="1"/>
+<wire x1="33.8738875" y1="66.795209375" x2="34.7913875" y2="66.795209375" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="7"/>
@@ -3497,7 +3488,8 @@ design rules under a new name.</description>
 <signal name="N$11">
 <contactref element="D1" pad="A"/>
 <contactref element="R3" pad="1"/>
-<wire x1="3.665165625" y1="83.457290625" x2="6.40761875" y2="83.39944375" width="0" layer="19" extent="1-1"/>
+<wire x1="3.665165625" y1="83.457290625" x2="6.349771875" y2="83.457290625" width="0.254" layer="1"/>
+<wire x1="6.349771875" y1="83.457290625" x2="6.40761875" y2="83.39944375" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U3" pad="2"/>
@@ -3937,6 +3929,76 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,533d1475a3b9a677"/>
+<approved hash="4,1,f5f9f6c4d044d379"/>
+<approved hash="4,1,9a37606c9d7f25a2"/>
+<approved hash="4,1,2b925a62b2e0acc7"/>
+<approved hash="4,1,c385726212fa3cd1"/>
+<approved hash="4,1,f6d3850673b78a27"/>
+<approved hash="4,1,56ecb925995478e6"/>
+<approved hash="4,1,e8ba7874c5428f9b"/>
+<approved hash="4,2,31f8320108810b78"/>
+<approved hash="4,2,41c570e912a8de09"/>
+<approved hash="4,2,8725f608684814e9"/>
+<approved hash="4,3,41c570e912a8de09"/>
+<approved hash="4,3,31f8320108810b78"/>
+<approved hash="4,3,8725f608684814e9"/>
+<approved hash="4,4,41c570e912a8de09"/>
+<approved hash="4,4,31f8320108810b78"/>
+<approved hash="4,4,8725f608684814e9"/>
+<approved hash="4,5,41c570e912a8de09"/>
+<approved hash="4,5,8725f608684814e9"/>
+<approved hash="4,5,31f8320108810b78"/>
+<approved hash="4,6,41c570e912a8de09"/>
+<approved hash="4,6,8725f608684814e9"/>
+<approved hash="4,6,31f8320108810b78"/>
+<approved hash="4,7,41c570e912a8de09"/>
+<approved hash="4,7,8725f608684814e9"/>
+<approved hash="4,7,31f8320108810b78"/>
+<approved hash="4,8,41c570e912a8de09"/>
+<approved hash="4,8,8725f608684814e9"/>
+<approved hash="4,8,31f8320108810b78"/>
+<approved hash="4,9,41c570e912a8de09"/>
+<approved hash="4,9,8725f608684814e9"/>
+<approved hash="4,9,31f8320108810b78"/>
+<approved hash="4,10,31f8320108810b78"/>
+<approved hash="4,10,41c570e912a8de09"/>
+<approved hash="4,10,8725f608684814e9"/>
+<approved hash="4,11,31f8320108810b78"/>
+<approved hash="4,11,41c570e912a8de09"/>
+<approved hash="4,11,8725f608684814e9"/>
+<approved hash="4,12,31f8320108810b78"/>
+<approved hash="4,12,41c570e912a8de09"/>
+<approved hash="4,12,8725f608684814e9"/>
+<approved hash="4,13,31f8320108810b78"/>
+<approved hash="4,13,41c570e912a8de09"/>
+<approved hash="4,13,8725f608684814e9"/>
+<approved hash="4,14,31f8320108810b78"/>
+<approved hash="4,14,41c570e912a8de09"/>
+<approved hash="4,14,8725f608684814e9"/>
+<approved hash="4,15,31f8320108810b78"/>
+<approved hash="4,15,41c570e912a8de09"/>
+<approved hash="4,15,8725f608684814e9"/>
+<approved hash="4,16,31f8320108810b78"/>
+<approved hash="4,16,f5f9f6c4d044d379"/>
+<approved hash="4,16,f6d3850673b78a27"/>
+<approved hash="4,16,56ecb925995478e6"/>
+<approved hash="2,20,c38efec72ef313ba"/>
+<approved hash="2,20,c78afac13af507be"/>
+<approved hash="1,20,7507c133c0ed74d9"/>
+<approved hash="1,20,330fc77bc7bb33cf"/>
+<approved hash="1,20,1726215220571623"/>
+<approved hash="1,20,9705233120709444"/>
+<approved hash="1,20,9b272f1320d394e7"/>
+<approved hash="1,20,3300c7f4c73533c1"/>
+<approved hash="1,20,3529c15dc05b342f"/>
+<approved hash="1,20,1501213520eb14df"/>
+<approved hash="1,20,fb21cf15c0d5f4e1"/>
+<approved hash="1,20,1100277427b711c3"/>
+<approved hash="1,20,3526c1d2c0d53421"/>
+<approved hash="1,20,f703c337c076f442"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
