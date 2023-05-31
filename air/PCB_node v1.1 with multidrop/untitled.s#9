@@ -22369,6 +22369,113 @@ wire to board 2.54 mm (0.100") pitch header</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="PDTC114EU_115">
+<packages>
+<package name="SOT65P210X110-3N">
+<wire x1="0.68" y1="-1.1" x2="-0.68" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-0.68" y1="1.1" x2="0.68" y2="1.1" width="0.127" layer="21"/>
+<wire x1="0.68" y1="1.1" x2="0.68" y2="0.43" width="0.127" layer="21"/>
+<wire x1="0.68" y1="-0.43" x2="0.68" y2="-1.1" width="0.127" layer="21"/>
+<text x="-3.515859375" y="2.09315" size="1.272040625" layer="25">&gt;NAME</text>
+<wire x1="0.68" y1="1.1" x2="0.68" y2="-1.1" width="0.127" layer="51"/>
+<wire x1="0.68" y1="-1.1" x2="-0.68" y2="-1.1" width="0.127" layer="51"/>
+<wire x1="-0.68" y1="-1.1" x2="-0.68" y2="1.1" width="0.127" layer="51"/>
+<wire x1="-0.68" y1="1.1" x2="0.68" y2="1.1" width="0.127" layer="51"/>
+<wire x1="0.93" y1="1.35" x2="-0.93" y2="1.35" width="0.05" layer="39"/>
+<wire x1="-0.93" y1="1.35" x2="-0.93" y2="1.15" width="0.05" layer="39"/>
+<wire x1="-0.93" y1="1.15" x2="-1.72" y2="1.15" width="0.05" layer="39"/>
+<wire x1="-1.72" y1="1.15" x2="-1.72" y2="-1.15" width="0.05" layer="39"/>
+<wire x1="-1.72" y1="-1.15" x2="-0.93" y2="-1.15" width="0.05" layer="39"/>
+<wire x1="-0.93" y1="-1.15" x2="-0.93" y2="-1.35" width="0.05" layer="39"/>
+<wire x1="-0.93" y1="-1.35" x2="0.93" y2="-1.35" width="0.05" layer="39"/>
+<wire x1="0.93" y1="-1.35" x2="0.93" y2="-0.5" width="0.05" layer="39"/>
+<wire x1="0.93" y1="-0.5" x2="1.72" y2="-0.5" width="0.05" layer="39"/>
+<wire x1="1.72" y1="-0.5" x2="1.72" y2="0.5" width="0.05" layer="39"/>
+<wire x1="1.72" y1="0.5" x2="0.93" y2="0.5" width="0.05" layer="39"/>
+<wire x1="0.93" y1="0.5" x2="0.93" y2="1.35" width="0.05" layer="39"/>
+<text x="-3.31535" y="-3.115040625" size="1.27196875" layer="27">&gt;VALUE</text>
+<circle x="-1.935" y="0.865" radius="0.05" width="0.3" layer="21"/>
+<circle x="-0.3" y="0.7" radius="0.05" width="0.3" layer="51"/>
+<smd name="3" x="0.97" y="0" dx="0.5" dy="0.99" layer="1" roundness="13" rot="R270"/>
+<smd name="2" x="-0.97" y="-0.65" dx="0.5" dy="0.99" layer="1" roundness="13" rot="R270"/>
+<smd name="1" x="-0.97" y="0.65" dx="0.5" dy="0.99" layer="1" roundness="13" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PDTC114EU,115">
+<wire x1="-5.588" y1="2.54" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-4.318" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.318" y1="1.27" x2="-3.556" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="3.81" x2="-2.794" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="1.27" x2="-2.286" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="-0.508" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.302" x2="1.27" y2="4.318" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="3.302" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.302" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.286" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.286" y1="1.778" x2="2.032" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.032" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-4.572" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.27" x2="0.762" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-1.778" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-0.254" x2="0.762" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-1.016" x2="-1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-1.778" x2="-0.508" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-2.286" x2="-0.508" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-4.572" x2="2.54" y2="-4.572" width="0.254" layer="94"/>
+<text x="-5.08556875" y="4.44988125" size="1.271390625" layer="94">R1</text>
+<text x="-4.0643" y="-2.159159375" size="1.270090625" layer="94">R2</text>
+<text x="-7.6255" y="10.6757" size="2.54183125" layer="95">&gt;NAME</text>
+<text x="-7.62716875" y="-13.2204" size="2.542390625" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="OUTPUT" x="10.16" y="7.62" visible="off" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="10.16" y="-7.62" visible="off" length="middle" direction="pwr" rot="R180"/>
+<pin name="INPUT" x="-12.7" y="2.54" visible="off" length="middle" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PDTC114EU,115" prefix="Q">
+<description>PDTC114E series - NPN resistor-equipped transistors; R1 = 10 kΩ, R2 = 10 kΩ &lt;a href="https://pricing.snapeda.com/parts/PDTC114EU%2C115/Nexperia%20USA%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PDTC114EU,115" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT65P210X110-3N">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="INPUT" pad="1"/>
+<connect gate="G$1" pin="OUTPUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Pre-Biased Bipolar Transistor (BJT) NPN - Pre-Biased 50 V 100 mA 200 mW Surface Mount SOT-323 "/>
+<attribute name="MF" value="Nexperia USA Inc."/>
+<attribute name="MP" value="PDTC114EU,115"/>
+<attribute name="PACKAGE" value="SOT-323 Nexperia USA Inc."/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/PDTC114EU,115/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22539,7 +22646,8 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="J3" library="U.FL-R-SMT_01_" deviceset="U.FL-R-SMT(01)" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF"/>
-<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
+<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10"/>
+<part name="Q11" library="PDTC114EU_115" deviceset="PDTC114EU,115" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23190,6 +23298,10 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="R32" gate="G$1" x="297.18" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="295.6814" y="128.27" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="300.482" y="128.27" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="Q11" gate="G$1" x="314.96" y="50.8" smashed="yes">
+<attribute name="NAME" x="307.3345" y="61.4757" size="2.54183125" layer="95"/>
+<attribute name="VALUE" x="307.33283125" y="37.5796" size="2.542390625" layer="96"/>
 </instance>
 </instances>
 <busses>

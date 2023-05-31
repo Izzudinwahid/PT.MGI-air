@@ -19864,15 +19864,15 @@ Based on the previous libraries:
 <instance part="P+5" gate="VCC" x="109.22" y="304.8" smashed="yes">
 <attribute name="VALUE" x="106.68" y="302.26" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X3" gate="-1" x="187.96" y="391.16" smashed="yes">
-<attribute name="NAME" x="181.356" y="392.049" size="1.778" layer="95" rot="R180"/>
+<instance part="X3" gate="-1" x="185.42" y="368.3" smashed="yes">
+<attribute name="NAME" x="178.816" y="369.189" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-2" x="187.96" y="386.08" smashed="yes">
-<attribute name="NAME" x="181.356" y="386.969" size="1.778" layer="95" rot="R180"/>
+<instance part="X3" gate="-2" x="185.42" y="363.22" smashed="yes">
+<attribute name="NAME" x="178.816" y="364.109" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-3" x="187.96" y="381" smashed="yes">
-<attribute name="VALUE" x="180.34" y="377.19" size="1.778" layer="96"/>
-<attribute name="NAME" x="181.356" y="381.889" size="1.778" layer="95" rot="R180"/>
+<instance part="X3" gate="-3" x="185.42" y="358.14" smashed="yes">
+<attribute name="VALUE" x="177.8" y="354.33" size="1.778" layer="96"/>
+<attribute name="NAME" x="178.816" y="359.029" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -20223,13 +20223,15 @@ Based on the previous libraries:
 <net name="N$13" class="0">
 <segment>
 <pinref part="PS1" gate="G$1" pin="AC1"/>
-<wire x1="195.58" y1="368.3" x2="193.04" y2="368.3" width="0.1524" layer="91"/>
+<pinref part="X3" gate="-1" pin="1"/>
+<wire x1="195.58" y1="368.3" x2="190.5" y2="368.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="PS1" gate="G$1" pin="AC2"/>
-<wire x1="195.58" y1="363.22" x2="193.04" y2="363.22" width="0.1524" layer="91"/>
+<pinref part="X3" gate="-2" pin="1"/>
+<wire x1="195.58" y1="363.22" x2="190.5" y2="363.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -20488,6 +20490,13 @@ Based on the previous libraries:
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="114.3" y1="289.56" x2="114.3" y2="287.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N" class="0">
+<segment>
+<pinref part="X3" gate="-3" pin="1"/>
+<wire x1="190.5" y1="358.14" x2="193.04" y2="358.14" width="0.1524" layer="91"/>
+<label x="193.04" y="358.14" size="0.6096" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

@@ -20422,6 +20422,11 @@ Based on the previous libraries:
 <wire x1="193.04" y1="299.72" x2="190.5" y2="299.72" width="0.1524" layer="91"/>
 <label x="190.5" y="299.72" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="IO25"/>
+<wire x1="71.12" y1="266.7" x2="73.66" y2="266.7" width="0.1524" layer="91"/>
+<label x="73.66" y="266.7" size="0.6096" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MISO_VSPI" class="0">
 <segment>

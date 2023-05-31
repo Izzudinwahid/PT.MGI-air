@@ -9027,7 +9027,7 @@ design rules under a new name.</description>
 <via x="125.86335" y="37.6047" extent="1-16" drill="0.35"/>
 <wire x1="125.86335" y1="37.6047" x2="125.86335" y2="39.5987" width="0.2032" layer="1"/>
 <wire x1="125.86335" y1="39.5987" x2="125.8879" y2="39.62325" width="0.2032" layer="1"/>
-<wire x1="125.8879" y1="39.62325" x2="65.659296875" y2="51.4399125" width="0" layer="19" extent="1-1"/>
+<wire x1="125.8879" y1="39.62325" x2="62.18864375" y2="96.67361875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX_MICRO">
 <contactref element="U2" pad="13"/>
