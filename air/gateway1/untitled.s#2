@@ -20499,6 +20499,12 @@ Based on the previous libraries:
 <label x="193.04" y="358.14" size="0.6096" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO25"/>
+<wire x1="71.12" y1="266.7" x2="73.66" y2="266.7" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

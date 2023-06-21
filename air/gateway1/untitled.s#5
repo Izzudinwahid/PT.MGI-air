@@ -20492,10 +20492,11 @@ Based on the previous libraries:
 <wire x1="114.3" y1="289.56" x2="114.3" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="N" class="0">
 <segment>
 <pinref part="X3" gate="-3" pin="1"/>
 <wire x1="190.5" y1="358.14" x2="193.04" y2="358.14" width="0.1524" layer="91"/>
+<label x="193.04" y="358.14" size="0.6096" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

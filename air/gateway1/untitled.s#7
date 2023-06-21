@@ -20223,13 +20223,15 @@ Based on the previous libraries:
 <net name="N$13" class="0">
 <segment>
 <pinref part="PS1" gate="G$1" pin="AC1"/>
-<wire x1="195.58" y1="368.3" x2="193.04" y2="368.3" width="0.1524" layer="91"/>
+<pinref part="X3" gate="-1" pin="1"/>
+<wire x1="195.58" y1="368.3" x2="190.5" y2="368.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="PS1" gate="G$1" pin="AC2"/>
-<wire x1="195.58" y1="363.22" x2="193.04" y2="363.22" width="0.1524" layer="91"/>
+<pinref part="X3" gate="-2" pin="1"/>
+<wire x1="195.58" y1="363.22" x2="190.5" y2="363.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX" class="0">

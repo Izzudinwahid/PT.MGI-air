@@ -19864,15 +19864,15 @@ Based on the previous libraries:
 <instance part="P+5" gate="VCC" x="109.22" y="304.8" smashed="yes">
 <attribute name="VALUE" x="106.68" y="302.26" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X3" gate="-1" x="187.96" y="391.16" smashed="yes">
-<attribute name="NAME" x="181.356" y="392.049" size="1.778" layer="95" rot="R180"/>
+<instance part="X3" gate="-1" x="185.42" y="368.3" smashed="yes">
+<attribute name="NAME" x="178.816" y="369.189" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-2" x="187.96" y="386.08" smashed="yes">
-<attribute name="NAME" x="181.356" y="386.969" size="1.778" layer="95" rot="R180"/>
+<instance part="X3" gate="-2" x="185.42" y="363.22" smashed="yes">
+<attribute name="NAME" x="178.816" y="364.109" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-3" x="187.96" y="381" smashed="yes">
-<attribute name="VALUE" x="180.34" y="377.19" size="1.778" layer="96"/>
-<attribute name="NAME" x="181.356" y="381.889" size="1.778" layer="95" rot="R180"/>
+<instance part="X3" gate="-3" x="185.42" y="358.14" smashed="yes">
+<attribute name="VALUE" x="177.8" y="354.33" size="1.778" layer="96"/>
+<attribute name="NAME" x="178.816" y="359.029" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
