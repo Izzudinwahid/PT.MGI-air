@@ -41,10 +41,9 @@ void loop(void)
   adc2 = ads.readADC_SingleEnded(2);
   adc3 = ads.readADC_SingleEnded(3);
 
-  total = (6.5078 * (adc0 * multiplier / 1000)) + 0.0321;
-
+  total = (5.7444 * (adc0 * multiplier / 1000)) - 0.0964;
   Serial.print("AIN0: "); Serial.println(total);
-  //  Serial.print("AIN1: "); Serial.println(adc1);
+  //  Serial.print("AIN1: "); Serial.println(adc0 * multiplier / 1000);
   //  Serial.print("AIN2: "); Serial.println(adc2);
   //  Serial.print("AIN3: "); Serial.println(adc3);
   Serial.println(" ");

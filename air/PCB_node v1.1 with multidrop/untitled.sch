@@ -21499,58 +21499,6 @@ Based on the previous libraries:
 </deviceset>
 </devicesets>
 </library>
-<library name="MODUL-BATT">
-<packages>
-<package name="MODUL-BATT">
-<wire x1="0" y1="23" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="33" y2="0" width="0.1524" layer="21"/>
-<wire x1="33" y1="0" x2="33" y2="23" width="0.1524" layer="21"/>
-<wire x1="33" y1="23" x2="0" y2="23" width="0.1524" layer="21"/>
-<pad name="IN-" x="2" y="21" drill="1.5" diameter="2.54" shape="square"/>
-<pad name="IN+" x="18.5" y="21" drill="1.5" diameter="2.54" shape="square"/>
-<pad name="OUT+" x="31" y="21" drill="1.5" diameter="2.54" shape="square"/>
-<pad name="OUT-" x="23.5" y="21" drill="1.5" diameter="2.54" shape="square"/>
-<pad name="BATT-" x="5" y="2" drill="1.5" diameter="2.54" shape="square"/>
-<pad name="BATT+" x="14" y="2" drill="1.5" diameter="2.54" shape="square"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MODUL-BATT">
-<wire x1="-2.54" y1="15.24" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="17.78" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="2.54" x2="17.78" y2="15.24" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="94"/>
-<pin name="OUT+" x="-7.62" y="12.7" length="middle"/>
-<pin name="OUT-" x="-7.62" y="10.16" length="middle"/>
-<pin name="IN+" x="-7.62" y="7.62" length="middle"/>
-<pin name="IN-" x="-7.62" y="5.08" length="middle"/>
-<pin name="BATT+" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="BATT-" x="22.86" y="7.62" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MODUL-BATT" prefix="MODUL-BATT" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="MODUL-BATT" x="-7.62" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="MODUL-BATT">
-<connects>
-<connect gate="G$1" pin="BATT+" pad="BATT+"/>
-<connect gate="G$1" pin="BATT-" pad="BATT-"/>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
-<connect gate="G$1" pin="OUT+" pad="OUT+"/>
-<connect gate="G$1" pin="OUT-" pad="OUT-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -22695,9 +22643,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="NEO-6MGPS1" library="NEO-6M GPS" deviceset="NEO-6MGPS" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="MODUL-BATT1" library="MODUL-BATT" deviceset="MODUL-BATT" device=""/>
 <part name="X7" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-02" device="-70543" package3d_urn="urn:adsk.eagle:package:8078681/1"/>
-<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D8" library="1N5819HW-7" deviceset="1N5819HW-7" device=""/>
 <part name="U10" library="ADS1115IDGSR" deviceset="ADS1115IDGSR" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22755,6 +22701,15 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="Q12" library="S9013" deviceset="S9013" device=""/>
+<part name="U13" library="PC817X2NIP0F" deviceset="PC817X2NIP0F" device=""/>
+<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1k"/>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
+<part name="D18" library="US1M-13" deviceset="US1M-13" device=""/>
+<part name="Q11" library="S9013" deviceset="S9013" device=""/>
+<part name="K5" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="351" device="" package3d_urn="urn:adsk.eagle:package:24300/1"/>
+<part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23237,16 +23192,12 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="GND26" gate="1" x="269.24" y="185.42" smashed="yes">
 <attribute name="VALUE" x="266.7" y="182.88" size="1.778" layer="96"/>
 </instance>
-<instance part="MODUL-BATT1" gate="G$1" x="284.48" y="149.86" smashed="yes"/>
-<instance part="X7" gate="-2" x="320.04" y="157.48" smashed="yes">
-<attribute name="NAME" x="322.58" y="156.718" size="1.524" layer="95"/>
+<instance part="X7" gate="-2" x="228.6" y="-17.78" smashed="yes">
+<attribute name="NAME" x="231.14" y="-18.542" size="1.524" layer="95"/>
 </instance>
-<instance part="X7" gate="-1" x="320.04" y="160.02" smashed="yes">
-<attribute name="NAME" x="322.58" y="159.258" size="1.524" layer="95"/>
-<attribute name="VALUE" x="319.278" y="161.417" size="1.778" layer="96"/>
-</instance>
-<instance part="GND27" gate="1" x="259.08" y="152.4" smashed="yes">
-<attribute name="VALUE" x="256.54" y="149.86" size="1.778" layer="96"/>
+<instance part="X7" gate="-1" x="228.6" y="-15.24" smashed="yes">
+<attribute name="NAME" x="231.14" y="-16.002" size="1.524" layer="95"/>
+<attribute name="VALUE" x="227.838" y="-13.843" size="1.778" layer="96"/>
 </instance>
 <instance part="D8" gate="G$1" x="142.24" y="233.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="144.78" y="238.76" size="1.778" layer="95" rot="R270"/>
@@ -23465,6 +23416,45 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="Q12" gate="G$1" x="320.04" y="60.96" smashed="yes">
 <attribute name="NAME" x="325.12085" y="60.96" size="1.7783" layer="95"/>
 <attribute name="VALUE" x="325.122259375" y="58.41886875" size="1.778790625" layer="96"/>
+</instance>
+<instance part="U13" gate="G$1" x="170.18" y="-27.94" smashed="yes">
+<attribute name="NAME" x="165.089859375" y="-19.032259375" size="1.27253125" layer="95"/>
+<attribute name="VALUE" x="165.09081875" y="-35.57376875" size="1.2723" layer="96"/>
+</instance>
+<instance part="R36" gate="G$1" x="154.94" y="-22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="158.75" y="-24.3586" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="158.75" y="-19.558" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND27" gate="1" x="160.02" y="-33.02" smashed="yes">
+<attribute name="VALUE" x="157.48" y="-35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="R37" gate="G$1" x="182.88" y="-17.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="184.3786" y="-13.97" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="179.578" y="-13.97" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D18" gate="G$1" x="187.96" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="185.42" y="-22.86" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.77" y="-22.86" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="Q11" gate="G$1" x="187.96" y="-30.48" smashed="yes">
+<attribute name="NAME" x="193.04085" y="-30.48" size="1.7783" layer="95"/>
+<attribute name="VALUE" x="193.042259375" y="-33.02113125" size="1.778790625" layer="96"/>
+</instance>
+<instance part="K5" gate="1" x="195.58" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="196.85" y="-14.859" size="1.778" layer="96"/>
+<attribute name="PART" x="196.85" y="-12.7" size="1.778" layer="95"/>
+</instance>
+<instance part="K5" gate="2" x="213.36" y="-20.32" smashed="yes">
+<attribute name="PART" x="215.9" y="-20.32" size="1.778" layer="95"/>
+</instance>
+<instance part="K5" gate="3" x="213.36" y="-35.56" smashed="yes">
+<attribute name="PART" x="215.9" y="-35.56" size="1.778" layer="95"/>
+</instance>
+<instance part="GND40" gate="1" x="190.5" y="-43.18" smashed="yes">
+<attribute name="VALUE" x="187.96" y="-45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="GND41" gate="1" x="238.76" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="236.22" y="-20.32" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23734,23 +23724,6 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="279.4" y1="187.96" x2="269.24" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MODUL-BATT1" gate="G$1" pin="IN-"/>
-<pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="276.86" y1="154.94" x2="266.7" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="MODUL-BATT1" gate="G$1" pin="OUT-"/>
-<wire x1="266.7" y1="154.94" x2="259.08" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="154.94" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="160.02" x2="276.86" y2="160.02" width="0.1524" layer="91"/>
-<junction x="266.7" y="154.94"/>
-<pinref part="X7" gate="-2" pin="S"/>
-<pinref part="MODUL-BATT1" gate="G$1" pin="BATT-"/>
-<wire x1="317.5" y1="157.48" x2="307.34" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="154.94" x2="307.34" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="154.94" x2="307.34" y2="157.48" width="0.1524" layer="91"/>
-<junction x="276.86" y="154.94"/>
-<junction x="307.34" y="157.48"/>
-</segment>
-<segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="U10" gate="G$1" pin="GND"/>
 <wire x1="104.14" y1="73.66" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
@@ -23841,6 +23814,21 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="SJ1" gate="1" pin="1"/>
 <wire x1="281.94" y1="40.64" x2="281.94" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U13" gate="G$1" pin="C"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+<wire x1="162.56" y1="-30.48" x2="160.02" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="Q11" gate="G$1" pin="E"/>
+<wire x1="190.5" y1="-40.64" x2="190.5" y2="-38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND41" gate="1" pin="GND"/>
+<pinref part="X7" gate="-1" pin="S"/>
+<wire x1="238.76" y1="-15.24" x2="226.06" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -24106,11 +24094,6 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <label x="276.86" y="180.34" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODUL-BATT1" gate="G$1" pin="IN+"/>
-<wire x1="276.86" y1="157.48" x2="274.32" y2="157.48" width="0.1524" layer="91"/>
-<label x="274.32" y="157.48" size="0.6096" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U10" gate="G$1" pin="VDD"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
@@ -24131,6 +24114,15 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="193.04" y1="50.8" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
 <junction x="193.04" y="48.26"/>
 <label x="185.42" y="50.8" size="0.6096" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D18" gate="G$1" pin="K"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="-12.7" x2="182.88" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="K5" gate="1" pin="1"/>
+<wire x1="195.58" y1="-12.7" x2="187.96" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="187.96" y="-12.7"/>
+<label x="182.88" y="-12.7" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -25031,23 +25023,16 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <label x="294.64" y="53.34" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="X7" gate="-1" pin="S"/>
-<pinref part="MODUL-BATT1" gate="G$1" pin="BATT+"/>
-<wire x1="317.5" y1="160.02" x2="307.34" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="OUT-BATT" class="0">
-<segment>
-<pinref part="MODUL-BATT1" gate="G$1" pin="OUT+"/>
-<wire x1="276.86" y1="162.56" x2="274.32" y2="162.56" width="0.1524" layer="91"/>
-<label x="274.32" y="162.56" size="0.6096" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
 <wire x1="142.24" y1="238.76" x2="142.24" y2="241.3" width="0.1524" layer="91"/>
 <label x="142.24" y="241.3" size="0.6096" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K5" gate="2" pin="P"/>
+<wire x1="213.36" y1="-22.86" x2="215.9" y2="-22.86" width="0.1524" layer="91"/>
+<label x="215.9" y="-22.86" size="0.6096" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -25355,6 +25340,59 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="K4" gate="2" pin="O"/>
 <wire x1="223.52" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="91"/>
 <label x="228.6" y="45.72" size="0.6096" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="U13" gate="G$1" pin="A"/>
+<wire x1="160.02" y1="-22.86" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="U13" gate="G$1" pin="CT"/>
+<wire x1="182.88" y1="-22.86" x2="180.34" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="D18" gate="G$1" pin="A"/>
+<pinref part="Q11" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="-22.86" x2="190.5" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="K5" gate="1" pin="2"/>
+<wire x1="195.58" y1="-22.86" x2="190.5" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="190.5" y="-22.86"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="Q11" gate="G$1" pin="B"/>
+<pinref part="U13" gate="G$1" pin="ET"/>
+<wire x1="182.88" y1="-30.48" x2="180.34" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M2_BATT-BACK-SWITCH" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="IO2"/>
+<wire x1="198.12" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
+<label x="200.66" y="127" size="0.6096" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="-22.86" x2="147.32" y2="-22.86" width="0.1524" layer="91"/>
+<label x="147.32" y="-22.86" size="0.6096" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="X7" gate="-2" pin="S"/>
+<wire x1="226.06" y1="-17.78" x2="220.98" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-17.78" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="K5" gate="2" pin="S"/>
+<wire x1="220.98" y1="-10.16" x2="208.28" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-10.16" x2="208.28" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
