@@ -6669,6 +6669,7 @@ Based on the previous libraries:
 <part name="D8" library="US1M-13" deviceset="US1M-13" device=""/>
 <part name="Q22" library="S9013" deviceset="S9013" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7496,6 +7497,9 @@ Based on the previous libraries:
 <instance part="P+17" gate="VCC" x="109.22" y="218.44" smashed="yes">
 <attribute name="VALUE" x="106.68" y="215.9" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="GND40" gate="1" x="119.38" y="182.88" smashed="yes">
+<attribute name="VALUE" x="116.84" y="180.34" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7713,6 +7717,16 @@ Based on the previous libraries:
 <pinref part="X9" gate="-2" pin="1"/>
 <wire x1="48.26" y1="332.74" x2="50.8" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND39" gate="1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="C"/>
+<wire x1="86.36" y1="195.58" x2="88.9" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="Q22" gate="G$1" pin="E"/>
+<wire x1="119.38" y1="185.42" x2="119.38" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -8981,6 +8995,19 @@ Based on the previous libraries:
 <pinref part="Q22" gate="G$1" pin="B"/>
 <pinref part="U4" gate="G$1" pin="ET"/>
 <wire x1="111.76" y1="195.58" x2="106.68" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<pinref part="K1" gate="2" pin="P"/>
+<wire x1="139.7" y1="203.2" x2="149.86" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="K1" gate="2" pin="S"/>
+<wire x1="134.62" y1="210.82" x2="134.62" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="215.9" x2="149.86" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

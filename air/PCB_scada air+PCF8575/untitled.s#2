@@ -8968,12 +8968,6 @@ Based on the previous libraries:
 <wire x1="88.9" y1="203.2" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="R52" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="203.2" x2="73.66" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$50" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="CT"/>
@@ -9008,6 +9002,18 @@ Based on the previous libraries:
 <pinref part="K1" gate="2" pin="P"/>
 <wire x1="139.7" y1="203.2" x2="149.86" y2="203.2" width="0.1524" layer="91"/>
 <label x="149.86" y="203.2" size="0.6096" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BATT" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IO4"/>
+<wire x1="147.32" y1="322.58" x2="149.86" y2="322.58" width="0.1524" layer="91"/>
+<label x="149.86" y="322.58" size="0.6096" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R52" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="203.2" x2="73.66" y2="203.2" width="0.1524" layer="91"/>
+<label x="73.66" y="203.2" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
