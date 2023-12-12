@@ -5458,75 +5458,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="1N5819HW-7">
-<packages>
-<package name="SOD3715X145N">
-<wire x1="-1.425" y1="0.85" x2="1.425" y2="0.85" width="0.127" layer="51"/>
-<wire x1="1.425" y1="0.85" x2="1.425" y2="-0.85" width="0.127" layer="51"/>
-<wire x1="1.425" y1="-0.85" x2="-1.425" y2="-0.85" width="0.127" layer="51"/>
-<wire x1="-1.425" y1="-0.85" x2="-1.425" y2="0.85" width="0.127" layer="51"/>
-<wire x1="1.425" y1="-0.85" x2="-1.425" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="-1.425" y1="0.85" x2="1.425" y2="0.85" width="0.127" layer="21"/>
-<wire x1="-2.535" y1="1.1" x2="2.535" y2="1.1" width="0.05" layer="39"/>
-<wire x1="2.535" y1="1.1" x2="2.535" y2="-1.1" width="0.05" layer="39"/>
-<wire x1="2.535" y1="-1.1" x2="-2.535" y2="-1.1" width="0.05" layer="39"/>
-<wire x1="-2.535" y1="-1.1" x2="-2.535" y2="1.1" width="0.05" layer="39"/>
-<text x="-2.50416875" y="1.252090625" size="0.610615625" layer="25">&gt;NAME</text>
-<text x="-2.501309375" y="-1.75091875" size="0.60991875" layer="27">&gt;VALUE</text>
-<circle x="-3" y="0" radius="0.1" width="0.2" layer="51"/>
-<circle x="-3" y="0" radius="0.1" width="0.2" layer="21"/>
-<smd name="C" x="-1.68" y="0" dx="1.21" dy="0.73" layer="1"/>
-<smd name="A" x="1.68" y="0" dx="1.21" dy="0.73" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="1N5819HW-7">
-<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<pin name="K" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1N5819HW-7" prefix="D">
-<description>1N5819HW Series 40 V 1 A Surface Mount Schottky Barrier Rectifier - SOD-123  &lt;a href="https://pricing.snapeda.com/parts/1N5819HW-7/Diodes%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="1N5819HW-7" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD3715X145N">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Diode Schottky 40 V 1A Surface Mount SOD-123 "/>
-<attribute name="MF" value="Diodes Inc."/>
-<attribute name="MP" value="1N5819HW-7"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N5819HW-7/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MINI560">
 <packages>
 <package name="MINI560">
@@ -5726,6 +5657,45 @@ Based on the previous libraries:
 <text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">3</text>
 <text x="5.334" y="4.445" size="1.27" layer="21" ratio="10">4</text>
 </package>
+<package name="MSTBA3" urn="urn:adsk.eagle:footprint:9517/1" library_version="3">
+<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<wire x1="-8.636" y1="7.112" x2="-8.636" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-8.636" y1="7.112" x2="-5.715" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="7.112" x2="-4.445" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-4.445" y1="7.112" x2="-0.635" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="7.112" x2="0.635" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="5.715" y1="7.112" x2="8.636" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-8.636" y1="-1.905" x2="8.636" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="8.636" y1="7.112" x2="8.636" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-8.636" y1="-4.953" x2="-5.969" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-8.636" y1="-1.905" x2="-8.636" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="8.636" y1="-1.905" x2="8.636" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-4.191" y1="-4.953" x2="-4.572" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-4.191" y1="-4.953" x2="-0.889" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-3.683" x2="-5.588" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-5.969" y1="-4.953" x2="-5.588" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-5.969" y1="-4.953" x2="-4.191" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-4.953" x2="0.508" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-4.953" x2="4.191" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="-4.953" x2="5.969" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="5.969" y1="-4.953" x2="8.636" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-4.953" x2="-0.508" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-4.953" x2="0.889" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-3.683" x2="0.508" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="-3.683" x2="5.588" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="5.969" y1="-4.953" x2="5.588" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="4.191" y1="-4.953" x2="4.572" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="7.112" x2="5.715" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="7.112" x2="4.445" y2="7.112" width="0.1524" layer="21"/>
+<pad name="1" x="-5.08" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="2" x="0" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="3" x="5.08" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<text x="-8.636" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-7.112" y="4.445" size="1.27" layer="21" ratio="10">1</text>
+<text x="-2.286" y="4.445" size="1.27" layer="21" ratio="10">2</text>
+<text x="2.794" y="4.445" size="1.27" layer="21" ratio="10">3</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="MSTBA2" urn="urn:adsk.eagle:package:9615/1" type="box" library_version="3">
@@ -5738,6 +5708,12 @@ Based on the previous libraries:
 <description>PHOENIX</description>
 <packageinstances>
 <packageinstance name="MSTBA4"/>
+</packageinstances>
+</package3d>
+<package3d name="MSTBA3" urn="urn:adsk.eagle:package:9608/1" type="box" library_version="3">
+<description>PHOENIX</description>
+<packageinstances>
+<packageinstance name="MSTBA3"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5820,6 +5796,35 @@ Based on the previous libraries:
 <attribute name="OC_FARNELL" value="3705195" constant="no"/>
 <attribute name="OC_NEWARK" value="71C4163" constant="no"/>
 <attribute name="POPULARITY" value="9" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MSTBA3" urn="urn:adsk.eagle:component:9686/2" prefix="X" library_version="3">
+<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="SK" x="0" y="5.08" addlevel="always"/>
+<gate name="-2" symbol="SK" x="0" y="0" addlevel="always"/>
+<gate name="-3" symbol="SKV" x="0" y="-5.08" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="MSTBA3">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9608/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="FARNELL" constant="no"/>
+<attribute name="MPN" value="1757255" constant="no"/>
+<attribute name="OC_FARNELL" value="3705183" constant="no"/>
+<attribute name="OC_NEWARK" value="71C4162" constant="no"/>
+<attribute name="POPULARITY" value="3" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6480,6 +6485,80 @@ Based on the previous libraries:
 </deviceset>
 </devicesets>
 </library>
+<library name="SS24">
+<packages>
+<package name="DIOM5336X265N">
+<circle x="-3.9" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.9" y="0" radius="0.1" width="0.2" layer="51"/>
+<text x="-3.5" y="2.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-2.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-3.555" y1="2.063" x2="-3.555" y2="-2.063" width="0.05" layer="39"/>
+<wire x1="-2.2" y1="1.8125" x2="-2.2" y2="-1.8125" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.8125" x2="2.2" y2="-1.8125" width="0.127" layer="51"/>
+<wire x1="2.2" y1="-1.8125" x2="2.2" y2="1.8125" width="0.127" layer="51"/>
+<wire x1="2.2" y1="1.8125" x2="-2.2" y2="1.8125" width="0.127" layer="51"/>
+<wire x1="3.555" y1="2.063" x2="-3.555" y2="2.063" width="0.05" layer="39"/>
+<wire x1="2.2" y1="1.8125" x2="-2.2" y2="1.8125" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.8125" x2="2.2" y2="-1.8125" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1.8125" x2="-2.2" y2="1.38" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.38" x2="-2.2" y2="-1.8125" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.8125" x2="2.2" y2="1.38" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.38" x2="2.2" y2="-1.8125" width="0.127" layer="21"/>
+<wire x1="3.555" y1="-2.063" x2="3.555" y2="2.063" width="0.05" layer="39"/>
+<wire x1="-3.555" y1="-2.063" x2="3.555" y2="-2.063" width="0.05" layer="39"/>
+<smd name="A" x="2.16" y="0" dx="2.29" dy="2.12" layer="1" roundness="25"/>
+<smd name="C" x="-2.16" y="0" dx="2.29" dy="2.12" layer="1" roundness="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SS24">
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<pin name="K" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SS24" prefix="D">
+<description>Diode Schottky 40V 2A Surface Mount DO-214AA (SMB)  &lt;a href="https://pricing.snapeda.com/parts/SS24/ON%20Semiconductor/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SS24" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIOM5336X265N">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SS24/Onsemi/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Diode Schottky 40V 2A Surface Mount DO-214AA (SMB) "/>
+<attribute name="MF" value="ON Semiconductor"/>
+<attribute name="MP" value="SS24"/>
+<attribute name="PACKAGE" value="DO-214AA ON Semiconductor"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SS24/Onsemi/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6514,7 +6593,7 @@ Based on the previous libraries:
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="560"/>
 <part name="PS1" library="HLK-20M12" deviceset="HLK-20M12" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="1N5819HW-7" deviceset="1N5819HW-7" device=""/>
+<part name="D1" library="SS24" deviceset="SS24" device=""/>
 <part name="MINI1" library="MINI560" deviceset="MINI560" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J10" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-03" device="-70543" package3d_urn="urn:adsk.eagle:package:8078684/1"/>
@@ -6532,12 +6611,12 @@ Based on the previous libraries:
 <part name="X3" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA2" device="" package3d_urn="urn:adsk.eagle:package:9615/1"/>
 <part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-03" device="-70543" package3d_urn="urn:adsk.eagle:package:8078684/1"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D2" library="1N5819HW-7" deviceset="1N5819HW-7" device=""/>
+<part name="D2" library="SS24" deviceset="SS24" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-02" device="-70543" package3d_urn="urn:adsk.eagle:package:8078681/1"/>
 <part name="X6" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-02" device="-70543" package3d_urn="urn:adsk.eagle:package:8078681/1"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D3" library="1N5819HW-7" deviceset="1N5819HW-7" device=""/>
+<part name="D3" library="SS24" deviceset="SS24" device=""/>
 <part name="Q1" library="MMBT2222_" deviceset="MMBT2222*" device=""/>
 <part name="Q2" library="MMBT2222_" deviceset="MMBT2222*" device=""/>
 <part name="Q3" library="MMBT2222_" deviceset="MMBT2222*" device=""/>
@@ -6570,7 +6649,7 @@ Based on the previous libraries:
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="30k"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="X7" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA2" device="" package3d_urn="urn:adsk.eagle:package:9615/1"/>
-<part name="D4" library="1N5819HW-7" deviceset="1N5819HW-7" device=""/>
+<part name="D4" library="SS24" deviceset="SS24" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TTL-RS1" library="TTL-RS485" deviceset="TTL-RS485" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -6670,6 +6749,7 @@ Based on the previous libraries:
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="X10" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA3" device="" package3d_urn="urn:adsk.eagle:package:9608/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7499,6 +7579,16 @@ Based on the previous libraries:
 </instance>
 <instance part="P+5" gate="VCC" x="149.86" y="218.44" smashed="yes">
 <attribute name="VALUE" x="147.32" y="215.9" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X10" gate="-1" x="10.16" y="383.54" smashed="yes">
+<attribute name="NAME" x="3.556" y="384.429" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="X10" gate="-2" x="10.16" y="378.46" smashed="yes">
+<attribute name="NAME" x="3.556" y="379.349" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="X10" gate="-3" x="10.16" y="373.38" smashed="yes">
+<attribute name="VALUE" x="2.54" y="369.57" size="1.778" layer="96"/>
+<attribute name="NAME" x="3.556" y="374.269" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -8968,12 +9058,6 @@ Based on the previous libraries:
 <wire x1="88.9" y1="203.2" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="R52" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="203.2" x2="73.66" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$50" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="CT"/>
@@ -9015,6 +9099,11 @@ Based on the previous libraries:
 <pinref part="U1" gate="G$1" pin="IO4"/>
 <wire x1="147.32" y1="322.58" x2="149.86" y2="322.58" width="0.1524" layer="91"/>
 <label x="149.86" y="322.58" size="0.6096" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R52" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="203.2" x2="73.66" y2="203.2" width="0.1524" layer="91"/>
+<label x="73.66" y="203.2" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
